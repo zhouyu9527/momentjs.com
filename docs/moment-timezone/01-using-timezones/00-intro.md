@@ -2,9 +2,9 @@
 title: Using Time zones
 ---
 
-There are two interfaces for using time zones with Moment.js.
+There are two interfaces for using time zones with Moment.js:
 
-1. [`moment.tz(..., String)`](#/using-timezones/parsing-in-zone/) is used to create a moment with a time zone. 
+`moment.tz(..., String)` is used to create a moment with a time zone. 
   
 It takes all the same arguments as the `moment` constructor, but uses the last argument as a time zone identifier:
 
@@ -21,7 +21,7 @@ b.utc().format(); // 2013-11-18T16:55Z
 Note that created moments have different UTC time because these moments were created in different time zones.
 
 
-2. [`moment().tz(String)`](#/using-timezones/converting-to-zone/) is used to change the time zone on an existing moment.
+`moment().tz(String)` is used to change the time zone on an existing moment.
 
 
 ```js
