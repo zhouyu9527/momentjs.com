@@ -24,7 +24,7 @@
     "grunt-sass": "^2.1.0",
     "gzip-size": "^0.2.0",
     "load-grunt-tasks": "^0.4.0",
-    "markdown-doctest": "^0.7.0",
+    "markdown-doctest": "^1.1.0",
     "moment": "2.29.3",
     "moment-timezone": "0.5.34",
     "time-grunt": "^0.3.1"
